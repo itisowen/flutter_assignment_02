@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_assignment_02/models/todo.dart';
 import 'package:flutter_assignment_02/ui/completed_screen.dart';
 import 'package:flutter_assignment_02/ui/task_screen.dart';
-import 'package:flutter_assignment_02/ui/new_screen.dart';
 
 class TodoScreen extends StatefulWidget {
   @override
@@ -35,7 +33,7 @@ class TodoScreenState extends State {
               bottomNavigationBar: Theme(
                 data: Theme.of(context).copyWith(
                     canvasColor: Colors.white,
-                    primaryColor: Colors.blue,
+                    primaryColor: Colors.orange[400],
                     textTheme: Theme.of(context)
                         .textTheme
                         .copyWith(caption: TextStyle(color: Colors.grey))),
